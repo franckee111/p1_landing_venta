@@ -1,0 +1,37 @@
+body footer{
+    padding: 20px;
+    background-color: #648490;
+}
+
+.privacidad {
+    text-align: center;
+    color: azure;
+    line-height: 15px;
+}
+
+
+
+/* .flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    font-size: large;
+    font-weight: bold;
+} */
+
+/* .flex-item{
+    display: flex;
+    padding: 5px;
+    font-size: 1rem;
+    text-align: left;
+    line-height: 1.5rem;
+    width: 400px;
+} */
+
+/* .list-footer{
+    text-align: center;
+    width: 400px;
+    list-style: none;
+} */

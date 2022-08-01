@@ -13,6 +13,13 @@
     display: block;
 }
 
+.login{
+    float: none;
+    text-decoration: none;
+    line-height: 80px;
+    display: block;
+    text-align: left;
+}
 
 #logo{
     /* line-height: 50px; */

@@ -1,19 +1,12 @@
 *{
     /* background-color: #ead9ad; */
-    margin: 1px;
+    margin: 0px;
     padding-left: 0px;
 }
 
 main{
     background-color: #ead9ad;
-    /* background-color: #ead9ad; */
 }
-
-/* .navbar{
-    
-    margin-left: 0px auto;
-    
-} */
 
 nav ul li{
     list-style: none;
@@ -41,13 +34,3 @@ nav ul li a:hover{
     border-radius: 5px;
     width: auto;
 }
-
-/* .img-responsive{
-    width: 100px;
-    height: auto;
-    max-width: 40px;
-} */
-
-/* #redes-sociales{
-    text-align: right;
-} */

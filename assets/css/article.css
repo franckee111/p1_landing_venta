@@ -10,3 +10,70 @@ article h1{
     text-align: center;
     color: azure;
 }
+
+.grid-contain{
+    display: grid;
+    grid-template-areas: 
+    'photo1 description1'
+    'photo1 description1'
+    'description2 photo2'
+    'description2 photo2'
+    'photo3 description3'
+    'photo3 description3';
+    gap: 10px;
+    padding: 10px;
+}
+
+.grid-contain >li{
+    display: grid;
+}
+
+.item1{
+    grid-area: photo1;
+}
+
+.item2{
+    grid-area: description1;
+    text-align: justify;
+    padding: 50px;
+}
+
+.item2 h3{
+    text-align: center;
+}
+
+.item3{
+    grid-area: photo2;
+}
+
+.item4{
+    grid-area: description2;
+    text-align: justify;
+    padding: 50px;
+}
+
+.item4 h3{
+    text-align: center;
+}
+
+.item5{
+    grid-area: photo3;
+}
+
+.item6{
+    grid-area: description3;
+    text-align: justify;
+    padding: 50px;
+}
+
+.item6 h3{
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    /* Resolución de moviles */
+    .grid-contain > li{
+        float: none;
+        grid-area: auto;
+    }
+}
