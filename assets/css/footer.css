@@ -65,3 +65,47 @@ body footer{
     width: 400px;
     list-style: none;
 } */
+
+@media screen and (max-width: 900px) {
+    /* Resolución de moviles */
+    /* .grid-footer{
+        float: none;
+        grid-area: auto;
+        display: inline-block;
+        text-align: center;
+    } */
+
+    .item-header{
+        font-size: small;
+        display: inline-flexbox;
+        text-align: center;
+    }
+
+    .item-row{
+        font-size: x-small;
+        display: inline-flexbox;
+        padding-left: 10px;
+    }
+
+    .redes-sociales{
+        display: inline-flexbox;
+        width: 15px;
+        height: 15px;
+    }
+
+    /* div ul li a{
+        float: none;
+        width: auto;
+        text-align: center;
+        display: block;
+    } */
+
+    /* .item-header{
+        text-align: center;
+        font-size: large;
+    }
+    
+    .item-row{
+        display: block;
+    } */
+}
