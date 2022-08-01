@@ -70,10 +70,23 @@ article h1{
     text-align: center;
 }
 
-@media screen and (max-width: 600px) {
+.ul li img{
+    width: 700px;
+    height: 500px;
+}
+
+@media screen and (max-width: 900px) {
     /* Resolución de moviles */
-    .grid-contain > li{
+    .grid-contain{
+        display: block;
         float: none;
         grid-area: auto;
+    }
+
+    .image-responsive{
+        float: none;
+        width: 300px;
+        height: 300px;
+        padding-left: 100px;
     }
 }
