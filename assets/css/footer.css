@@ -26,7 +26,6 @@ body footer{
 
 .item-row{
     display: inline-block;
-    list-style: none;
     padding-left: 70px;
     text-decoration: none;
     color: black;
@@ -34,11 +33,14 @@ body footer{
 }
 
 .redes-sociales{
+    list-style: none;
+    padding-left: 100px;
+    padding-top: 0px;
+}
+
+.tamanio-imagen{
     width: 30px;
     height: 30px;
-    text-decoration: none;
-    padding-left: 50px;
-    padding-top: 0px;
 }
 
 /* .flex-container{
@@ -91,6 +93,7 @@ body footer{
         display: inline-flexbox;
         width: 15px;
         height: 15px;
+        padding-left: 50px;
     }
 
     /* div ul li a{
